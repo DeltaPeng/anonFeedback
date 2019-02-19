@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}  
+
+/*added below
+can check website to determine what the params mean.
+fixed should be fixed positioning, so full screen all the time.
+When it's fixed or absolute positioning, can change z-index, -1 to put it at back*/
+.center {
+	display: flex;
+	justify-content: center;
+}
+.particles {
+	position: fixed;
+	top: 0; bottom:0;
+	right: 0; left:0;
+	z-index: -1;
+}
+.lgTextbox {
+	min-height: 65px; 
+}
