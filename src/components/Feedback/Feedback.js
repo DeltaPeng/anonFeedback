@@ -69,7 +69,7 @@ class Feedback extends React.Component {
 		 
 		 //may want to switch to UTC to expand app capabilities, but then would want a local time converter. 
 		 // Since we're just getting the day, not as big a deal
-		 fetch('http://localhost:3000/feedback',
+		 fetch('https://stormy-mesa-91905.herokuapp.com/feedback',
 		  { method:'post',
 			 headers: {'Content-Type': 'application/json'},
 			 body: JSON.stringify({
