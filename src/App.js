@@ -27,7 +27,7 @@ class App extends Component {
 		<Particles className='particles'
 				   params={particlesOptions} />
 		 
-		<Feedback loadUser={this.loadUser} onRouteChange={this.onRouteChange} /> 
+		<Feedback /> 
       </div>
     );
   }
