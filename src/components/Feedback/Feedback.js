@@ -133,7 +133,7 @@ class Feedback extends React.Component {
 								<label className="db fw6 lh-copy f6">Key of the event:</label>
 								<input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
 									name="FBKeyChange" id="FBKeyChange"
-									maxlength="60"
+									maxLength="60"
 									onChange={this.onFBKeyChange} />
 							</div>
 
@@ -141,7 +141,7 @@ class Feedback extends React.Component {
 								<label className="db fw6 lh-copy f6">Things you liked about the event:</label>
 								<textarea className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 lgTextbox"
 									name="FBLikedChange" id="FBLikedChange"
-									maxlength="200" spellcheck="false"
+									maxLength="200" spellCheck="false"
 									onChange={this.onFBLikedChange} />
 							</div>
 
@@ -149,7 +149,7 @@ class Feedback extends React.Component {
 								<label className="db fw6 lh-copy f6">Things you would like to see / do on future events:</label>
 								<textarea className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 lgTextbox"
 									name="FBFutureChange" id="FBFutureChange"
-									maxlength="200" spellcheck="false"
+									maxLength="200" spellCheck="false"
 									onChange={this.onFBFutureChange} />
 							</div>
 
@@ -157,7 +157,7 @@ class Feedback extends React.Component {
 								<label className="db fw6 lh-copy f6">Misc comments, suggestions for improvement, etc:</label>
 								<textarea className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100 lgTextbox"
 									name="FBMiscChange" id="FBMiscChange"
-									maxlength="200" spellcheck="false"
+									maxLength="200" spellCheck="false"
 									onChange={this.onFBMiscChange} />
 							</div>
 
